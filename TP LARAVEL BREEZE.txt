@@ -1,0 +1,39 @@
+De preference lancer GIT
+-----------------------------------------
+installation de laravel
+----------------------------------------
+composer global require laravel/installer
+ 
+laravel new example-app
+
+ou bien
+
+composer create-project laravel/laravel example-app
+-----------------------------------------
+node -v (est un environnement d'exécution JavaScript open source et multiplateforme.)
+
+npm -v (npm est le plus grand registre de logiciels au monde. Les développeurs open source 
+de tous les continents utilisent npm pour partager et emprunter des packages, 
+et de nombreuses organisations utilisent également npm pour gérer le développement privé.
+npm se compose de trois composants distincts :
+
+le site Web
+l'interface de ligne de commande (CLI)
+le registre)
+
+------------------------------------------
+installation de laravel breeze
+-------------------------------------------
+composer require laravel/breeze --dev
+php artisan breeze:install
+php artisan migrate
+npm install
+npm run dev
+----------------------------------------------
+Installation de tailwind
+----------------------------------------------
+( Dans d'autres frameworks, la pagination peut être très pénible. 
+Nous espérons que l'approche de Laravel en matière de pagination 
+sera une bouffée d'air frais. Le paginateur de Laravel est intégré au générateur 
+de requêtes et à Eloquent ORM et fournit une pagination pratique et facile à utiliser 
+des enregistrements de base de données sans aucune configuration. )
